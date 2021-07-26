@@ -1,0 +1,21 @@
+{
+    "name": "brunalopesgois/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da Alura",
+    "type": "library",
+    "authors": [
+        {
+            "name": "BrunaLopesGois",
+            "email": "bruna-chan@live.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alura\\Composer\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "symfony/dom-crawler": "^5.3",
+        "symfony/css-selector": "^5.3"
+    }
+}
