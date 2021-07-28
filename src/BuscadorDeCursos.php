@@ -9,7 +9,7 @@ class BuscadorDeCursos
 {
     private ClientInterface $client;
     private Crawler $crawler;
-    
+
     public function __construct(ClientInterface $client, Crawler $crawler)
     {
         $this->client = $client;
